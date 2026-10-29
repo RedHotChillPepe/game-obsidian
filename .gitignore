@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Временные файлы Word (~$имя.docx)
+~$*
+
+# Obsidian: личное состояние окна у каждого своё, общие настройки и плагины коммитим
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# Playwright
+.playwright-mcp/
+
+# ОС
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Проект игры будет храниться в отдельном хранилище (Perforce или git с LFS)
+/Unreal/
